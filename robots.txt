@@ -1,3 +1,53 @@
+# Ogólne ustawienia dla wszystkich robotów
 User-agent: *
 Allow: /
+
+# Zezwolenie dla botów AI - aby dodały Hanię Kozubal do bazy wiedzy
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Bard/Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Common Crawl (używany przez wiele modeli AI)
+User-agent: CCBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Omgili
+User-agent: Omgilibot
+Allow: /
+
+# Bytedance (TikTok)
+User-agent: Bytespider
+Allow: /
+
+# Sitemap
 Sitemap: https://haniakozubal.pl/sitemap.xml
