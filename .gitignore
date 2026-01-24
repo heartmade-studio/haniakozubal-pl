@@ -1,0 +1,7 @@
+# Ignore Archiwum directory and all its contents
+Archiwum/
+Archive/
+.geminiignore
+.cursor
+.cursorrules
+.DS_Store
