@@ -73,7 +73,6 @@
         @media (max-width: 767px) {
             .cennik-table table,
             .cennik-table tbody,
-            .cennik-table tr,
             .cennik-table td {
                 display: block;
             }
@@ -99,8 +98,14 @@
             .cennik-table tr.group td:nth-child(4) {
                 flex: 1 1 100%;
                 display: flex;
-                gap: 0.5rem;
+                gap: 1rem;
                 flex-wrap: wrap;
+            }
+            .cennik-table tr.cennik-details {
+                display: block;
+            }
+            .cennik-table tr.cennik-details.hidden {
+                display: none !important;
             }
             .cennik-table tr.cennik-details td {
                 padding: 0 16px 16px;
