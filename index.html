@@ -674,14 +674,20 @@ Chodzi o uważność i zrozumienie własnego ciała — o zobaczenie, co naprawd
             button.textContent = isExpanded ? 'Zobacz szczegóły' : 'Ukryj szczegóły';
         }
         document.querySelectorAll('.cennik-toggle').forEach(button => {
-            button.addEventListener('click', (e) => {
+            let touchHandled = false;
+            button.addEventListener('touchend', (e) => {
+                touchHandled = true;
                 e.preventDefault();
+                toggleCennikDetails(button);
+                setTimeout(() => { touchHandled = false; }, 400);
+            }, { passive: false });
+            button.addEventListener('click', (e) => {
+                if (touchHandled) {
+                    e.preventDefault();
+                    return;
+                }
                 toggleCennikDetails(button);
             });
-            button.addEventListener('touchend', (e) => {
-                e.preventDefault();
-                toggleCennikDetails(button);
-            }, { passive: false });
         });
     </script>
 </body>
