@@ -94,12 +94,13 @@
                 flex: 0 0 auto;
                 text-align: right;
             }
-            .cennik-table tr.group td:nth-child(3),
+            .cennik-table tr.group td:nth-child(3) {
+                flex: 0 1 auto;
+                justify-content: flex-start;
+            }
             .cennik-table tr.group td:nth-child(4) {
-                flex: 1 1 100%;
-                display: flex;
-                gap: 1rem;
-                flex-wrap: wrap;
+                flex: 0 0 auto;
+                margin-left: auto;
             }
             .cennik-table tr.cennik-details {
                 display: block;
@@ -480,11 +481,6 @@ Chodzi o uważność i zrozumienie własnego ciała — o zobaczenie, co naprawd
                         <iconify-icon icon="lucide:phone" width="16"></iconify-icon>
                         Telefon
                     </a>
-                    <a href="mailto:hanna.kozubal.tcm@gmail.com"
-                        class="flex items-center gap-2 px-4 py-2 bg-japandi-dark text-white rounded-lg text-sm hover:bg-japandi-terracotta transition-colors">
-                        <iconify-icon icon="lucide:mail" width="16"></iconify-icon>
-                        E-mail
-                    </a>
                 </div>
             </div>
         </div>
@@ -661,10 +657,10 @@ Chodzi o uważność i zrozumienie własnego ciała — o zobaczenie, co naprawd
             </p>
 
             <div class="flex flex-col sm:flex-row justify-center items-center gap-10 mt-8">
-                <a href="tel:+48662244247" class="flex flex-col items-center gap-2 group">
+                <a href="https://wa.me/48662244247" class="flex flex-col items-center gap-2 group">
                     <div
                         class="w-12 h-12 bg-white border border-japandi-sand rounded-full flex items-center justify-center text-japandi-dark group-hover:bg-japandi-dark group-hover:text-white transition-all">
-                        <iconify-icon icon="lucide:phone" width="20" stroke-width="1.5"></iconify-icon>
+                        <iconify-icon icon="mdi:whatsapp" width="24"></iconify-icon>
                     </div>
                     <span class="text-sm font-medium">+48 662 244 247</span>
                 </a>
@@ -678,10 +674,7 @@ Chodzi o uważność i zrozumienie własnego ciała — o zobaczenie, co naprawd
             </div>
 
             <div class="pt-16 text-xs text-japandi-stone">
-                © 2026 Hania Kozubal. Wszystkie prawa zastrzeżone. Powered by
-                <a href="https://heartmade.pl" rel="nofollow" class="hover:text-japandi-terracotta transition-colors">
-                    Heartmade.pl
-                </a>
+                © 2026 Hania Kozubal. Wszystkie prawa zastrzeżone. <a href="https://heartmade.pl/" rel="nofollow noreferrer" class="hover:text-japandi-terracotta transition-colors">Vibe-coded by Heartmade</a>
             </div>
         </div>
     </footer>
