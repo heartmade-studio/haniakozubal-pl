@@ -656,6 +656,20 @@ Chodzi o uważność i zrozumienie własnego ciała — o zobaczenie, co naprawd
                 toggleMenu();
             }
         });
+
+        // Cennik - rozwijanie szczegółów
+        document.querySelectorAll('.cennik-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const targetId = button.getAttribute('data-target');
+                const detailsRow = document.getElementById(targetId);
+                if (!detailsRow) return;
+
+                const isExpanded = detailsRow.classList.toggle('hidden');
+                button.setAttribute('aria-expanded', !isExpanded);
+                detailsRow.setAttribute('aria-hidden', isExpanded);
+                button.textContent = isExpanded ? 'Zobacz szczegóły' : 'Ukryj szczegóły';
+            });
+        });
     </script>
 </body>
 
