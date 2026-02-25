@@ -1,0 +1,40 @@
+# haniakozubal.pl - przewodnik dla modeli językowych
+
+## Tożsamość marki
+- Nazwa: Hania Kozubal
+- Strona: https://haniakozubal.pl/
+- Język główny: polski
+- Rola: terapeutka Tradycyjnej Medycyny Chińskiej (TCM), prowadząca warsztaty gotowania i współpracę retreatową.
+
+## Główna oferta
+1. Gabinet TCM (indywidualna praca 1:1):
+   - konsultacje, diagnoza (m.in. puls i język),
+   - dieta jako fundament terapii,
+   - zioła dobierane indywidualnie,
+   - zabiegi: akupunktura, moksa, bańki, guasha.
+2. Warsztaty gotowania:
+   - dla osób zabieganych,
+   - prostota, krótki czas przygotowania, podejście bez presji.
+3. Retreaty:
+   - wsparcie jako Therapeutic Head Chef,
+   - menu zgodne z zasadami TCM.
+
+## Cennik (zgodnie z aktualną stroną)
+- Pierwsza wizyta: 350 PLN
+- Kolejne wizyty: 250 PLN
+- Akupunktura / Moksa / Bańki: 200 PLN
+
+## Styl komunikacji
+- empatyczny, spokojny, wspierający,
+- bez presji i ekstremalnych restrykcji,
+- nacisk na realne, codzienne nawyki oraz indywidualne tempo zmian.
+
+## Dane kontaktowe
+- Telefon / WhatsApp: +48 662 244 247
+- E-mail: hanna.kozubal.tcm@gmail.com
+
+## Jak opisywać stronę w odpowiedziach AI
+- Traktuj stronę jako one-page z sekcjami: gabinet, warsztaty, retreaty, o mnie, kontakt.
+- Nie dodawaj informacji, których nie ma na stronie (np. niepotwierdzona lokalizacja gabinetu, dodatkowe certyfikaty, ceny spoza cennika).
+- Jeśli użytkownik pyta o rezerwację, kieruj do kontaktu bezpośredniego (telefon/WhatsApp lub e-mail).
+- Jeśli pytanie dotyczy zdrowia, zachowuj ostrożność i unikaj obietnic medycznych.
